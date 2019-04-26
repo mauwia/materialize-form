@@ -1,0 +1,97 @@
+.isl{
+    background-image: linear-gradient(45deg,#00dbde, #fc00ff);
+    margin-top: 20px;
+}
+.whiteee{
+    border-radius: 20px;
+}
+.fields
+{
+    padding-left: 10px;
+    margin-bottom: 50px;
+}
+.textareaa{
+    resize: vertical !important;
+}
+.ksb{
+    width: 100% !important;
+}
+.sub_btn{
+    border-radius: 100px !important;
+    text-transform: capitalize!important;
+    padding-right: 20px
+}
+.button_field{
+    background: linear-gradient(to left,#fc00ff,#00dbde,#fc00ff );
+     background-size: 170% 100%;
+    background-position: right bottom;
+    margin-bottom: 30px;
+    transition: all 2s ease;
+    
+}
+.button_field:hover {
+
+    background-position: left bottom;
+    
+}
+.whiteee>h4{
+    padding-bottom:20px;
+    padding-top: 20px;
+}
+.dropdown-content li>span{
+    color: black !important;
+    font-size: 15px !important;
+    border: 0 !important;
+    
+}
+.dropdown-content .selected span{
+    color: white !important;
+    font-size: 15px !important;
+    border: 0 !important;
+    
+}
+.select-dropdown{
+    font-size: 18px !important;
+}
+.dropdown-content li>span:hover{
+    background-image:  linear-gradient(45deg,#fc00ff,#00dbde) !important;
+    color: white !important;
+        
+}
+.selected{
+    background-image: linear-gradient(45deg,#fc00ff,#00dbde)!important;
+    color: white !important;
+}
+::placeholder{
+    font-size: 25px;
+}
+.inner_block{
+    display: inline-block;
+    width: 30%;
+    transition: 0.7s
+}
+.button_field:hover .inner_block{
+    width: 34%;
+}
+h4{
+    margin-top: 30px !important;
+    font-family: "Poppins-Bold",sans-serif !important;
+    font-size: 39px;
+}
+input:focus{
+    
+  border-bottom: 1px solid black !important;
+    box-shadow: 0 1px 0 0 black !important;
+  
+}
+label.active{
+  color: black !important;
+}
+textarea:focus{
+    
+  border-bottom: 1px solid black !important;
+    box-shadow: 0 1px 0 0 black !important;
+}
+textarea.active {
+  color: black !important;
+}

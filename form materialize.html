@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="form%20materialize.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script> 
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700" rel="stylesheet">
+    <script>
+         $(document).ready(function() {
+            $('select').material_select();
+         });
+      </script>
+</head>
+<body class="isl whiteee">
+
+    <div class="container">
+    <div class="row">
+        <div class="col s12 m8 l7 offset-l3 offset-m2 white whiteee">
+            <div class="container">     
+                
+        <h4 class="center-align"><b>Say Hello!</b>
+        </h4>
+                <form action="https://www.tutorialspoint.com/new.php">
+                <div class="section"></div>
+            <div class="input-field fields">
+            <input placeholder="Enter your name" id="first_name" type="text" class="validate" onfocus="this.placeholder=''" onblur="this.placeholder='Enter your name'" required>
+          <label for="first_name">Your Name</label>
+            </div><div class="input-field fields">
+            <input placeholder="Enter your email" id="email" type="email" class="validate" onfocus="this.placeholder=''" onblur="this.placeholder='Enter your email'" required>
+          <label for="email">Email</label>
+            </div>
+            
+          <div class="input-field fields">
+            <select>
+                <option value="1" selected>Choose Services</option>
+                <option value="2">Online Store</option>
+                <option value="3">eCommerce Business</option>
+                <option value="4">UI/UX Design</option>
+                <option value="4">Online Services</option>
+
+            </select>
+            <label>Needed Services</label>
+          </div>
+            <div class="input-field fields">
+            <select>
+                <option value="1" selected>Select Budget</option>
+                <option value="2">1500 $</option>
+                <option value="3">2000 $</option>
+                <option value="4">2500 $</option>
+            </select>
+            <label>Budget</label>
+          </div>
+            <div class="input-field fields">
+          <textarea id="textarea1" class="materialize-textarea textareaa" placeholder="Your message here" onfocus="this.placeholder=''" onblur="this.placeholder='Your message here'" required></textarea>
+          <label for="textarea1">Textarea</label>
+        </div>   
+            
+          <button class="btn button_field center-align waves-effect waves-light sub_btn ksb btn-large" type="submit" name="action"><div class="inner_block"> Submit<i class="material-icons right myIcon">trending_flat</i></div>
+          </button>
+            </form>
+        </div>
+        </div>
+    </div>
+    </div>
+    
+</body>
+</html>
